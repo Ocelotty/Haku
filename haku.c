@@ -5,8 +5,8 @@
 int main()
 {
 	HANDLE hMutexOne;
-	char* MName1 = "uxJLpe1m"; //-->Modifica el nombre del mutex por el deseado
-	char* MName2 = "Ap1mutx7"; //-->Modifica el nombre del mutex por el deseado
+	char* MName1 = "*"; //-->Asignar el nombre del mutex creado por el malware.
+	char* MName2 = "*"; //-->Asignar el nombre del mutex creado por el malware.
     FILE* f;
     long tam;
     long max_tam = 50411050;
