@@ -9,6 +9,6 @@ __HOW TO USE:__
 
 __Para su ejecución siempre que arranque el sistema, crea una entrada con la ruta donde se encuentre el .exe en:__
 
-HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run
-o
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run 
+ o
 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
