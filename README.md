@@ -7,7 +7,7 @@ __HOW TO USE:__
 - Compila el código
 - Execute & Enjoy!!!
 
-__Para que se ejecute siempre que arranque el sistema, crea una entrada con la ruta donde se encuentre el ejecutable en:__
+__Para su ejecución siempre que arranque el sistema, crea una entrada con la ruta donde se encuentre el .exe en:__
 
 HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run
 o
