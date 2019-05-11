@@ -7,8 +7,7 @@ __HOW TO USE:__
 - Compila el código
 - Execute & Enjoy!!!
 
-__Para su ejecución siempre que arranque el sistema, crea una entrada con la ruta donde se encuentre el .exe en:__
+__Para su ejecución siempre que arranque el sistema, crea una entrada con la ruta donde se encuentre el .exe en alguna de las siguientes rutas:__
 
 HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run 
- o
 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
