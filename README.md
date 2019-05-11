@@ -7,7 +7,8 @@ __HOW TO USE:__
 - Compila el código
 - Execute & Enjoy!!!
 
-__Para generar persistencia en el arranque del sistema crea una entrada con la ruta donde se encuentre el ejecutable en:__
+__Para que se ejecute siempre que arranque el sistema, crea una entrada con la ruta donde se encuentre el ejecutable en:__
 
 HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run
+o
 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
