@@ -3,7 +3,7 @@ Un simple código en C que permite el uso de las marcas de infección de determi
 
 __HOW TO USE:__
 
-- En el fichero haku.c, asigna el nombre del mutex reconocido a las variables MName*. Puedes definir tantas variables como mutex desees crear.
+- En el fichero haku.c, asigna el nombre del mutex creado por el malware a las variables MName*. Puedes definir tantas variables como mutex desees crear.
 - Compila el código
 - Execute & Enjoy!!!
 
