@@ -1,9 +1,11 @@
 # Haku
-Un simple código en C que permite la creación de mutex con el propósito de prevenir la infección y dispersión de la familia W32.Sality.gen.z (u otras familiar de malware)
+Un simple código en C que permite el uso de las marcas de infección de determinados malwares como vacuna para su prevención (en esta primera versión mediante la creación de objetos de exclusión mutua).
 
 __HOW TO USE:__
 
-Execute & Enjoy!!!
+- En el fichero haku.c, asigna el nombre del mutex reconocido a las variables MName*. Puedes definir tantas variables como mutex desees crear.
+- Compila el código
+- Execute & Enjoy!!!
 
 __Para generar persistencia en el arranque del sistema crea una entrada en:__
 
