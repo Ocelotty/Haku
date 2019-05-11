@@ -5,17 +5,18 @@
 int main()
 {
 	HANDLE hMutexOne;
-	char* MName1 = "uxJLpe1m"; #Modifica el nombre del mutex por el deseado
-	char* MName2 = "Ap1mutx7";
+	char* MName1 = "uxJLpe1m"; //-->Modifica el nombre del mutex por el deseado
+	char* MName2 = "Ap1mutx7"; //-->Modifica el nombre del mutex por el deseado
     FILE* f;
     long tam;
     long max_tam = 50411050;
     time_t t; 
 
     DWORD esperando;
+    //Puedes comentar las dos líneas siguientes si no quieres que se oculte la ventana
     HWND hWnd = GetConsoleWindow();
     ShowWindow(hWnd, SW_HIDE);
-
+    //Por defecto el log se crea en el mismo directorio donde se guarde el ejecutable
     f = fopen("haku.log", "r");
     fseek(f, 0, SEEK_END);
     tam = ftell(f);
@@ -26,7 +27,8 @@ int main()
         remove("haku.log");
         fclose(f);
     }
-
+        //Creación del mutex, para más mutex copia y pega todo el contenido, cambiando el MName*
+	//INICIO
 	hMutexOne = CreateMutex(NULL, TRUE, MName1);
 	if (hMutexOne == NULL) {
         f = fopen("haku.log", "a+");
@@ -55,6 +57,7 @@ int main()
             fclose(f);
         }
     }
+	//FIN
 	hMutexOne = CreateMutex(NULL, TRUE, MName2);
 	if (hMutexOne == NULL) {
         f = fopen("haku.log", "a+");
