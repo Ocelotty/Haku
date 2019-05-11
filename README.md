@@ -1,5 +1,5 @@
 # Haku
-Un simple código en C que protege el equipo ante determinadas infecciones mediante la creación de objetos de exclusión mutua utiliados por algunas familias de malware como "marca de infección".
+Un simple código en C que protege el equipo ante determinadas infecciones mediante la creación de objetos de exclusión mutua utilizados por algunas familias de malware como "marca de infección".
 
 __HOW TO USE:__
 
